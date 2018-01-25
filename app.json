@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name"  : "Sarih",
+    "description":"Sarih is a great app for college students to share their openions about each other",
+    "slug":"sarih",
+    "version" : "1.0.0",
+    "orientation":"portrait",
+    "primaryColor":"#7490ac",
+    "icon":"./assets/icon.png",
+    "loading" : {
+      "icon" : "./assets/logo.png",
+      "backgroundColor" : "#f1f1f1",
+      "hideExponentText": true,
+
+    },
+    "sdkVersion": "19.0.0",
+    "androidStatusBar": {
+            "barStyle": "light-content",
+            "backgroundColor": "#f8f8f8"
+       },
+       "ios": {
+      "bundleIdentifier": "com.nawros.sarih",
+      "buildNumber" : "2",
+      "icon":"./assets/icon.png",
+      "supportsTablet" : true
+    },
+    "android": {
+      "package": "com.nawros.sarih",
+      "icon":"./assets/androidicon.png",
+      "versionCode" : 1,
+      "permissions" : []
+    },
+    "notification" : {
+      "icon" :"./assets/icon.png",
+      "color" : "#7490ac"
+
+    }
+  }
+}
